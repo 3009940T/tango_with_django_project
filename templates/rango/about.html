@@ -11,12 +11,13 @@
     <body>
         <h1>Rango says...</h1>
         <div>
-            hey there partner! <br />
-            <strong>{{ boldmessage }}</strong><br />
+            here is the about page. <br />
+        <strong>This tutorial has been put together by Daniel Thompson</strong><br />
         </div>
         <div>
+            <p><a href="{% url 'rango:index' %}">Index</a></p>
             <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
-            <br><a href="/rango/about/">About</a><br />
+            <img src="/media/cat.jpg" alt="Picture of a Cat" />
         </div>
     </body>
 </html>
